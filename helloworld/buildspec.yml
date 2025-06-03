@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+    commands:
+      - echo Installing Python
+  build:
+    commands:
+      - echo "Running Hello World..."
+      - python3 hello.py
